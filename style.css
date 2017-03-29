@@ -1,0 +1,29 @@
+body {
+  font-size: 28px;
+}
+
+.glyphicon:hover {
+  color: #428bca;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: salmon;
+}
+
+/* Attribute selector
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
+ */
+[class*="col-"]{
+  background-color: white;
+  min-height: 50px;
+  border: 1px solid darkgray;
+}
+
+.container {
+  background-color: salmon;
+}
+
+/* Full width container */
+.container-fluid {
+  background-color: salmon;
+}
