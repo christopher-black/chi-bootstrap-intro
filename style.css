@@ -2,12 +2,23 @@ body {
   font-size: 28px;
 }
 
+.signupForm {
+  margin: 25px;
+  background-color: lightskyblue;
+}
+
 .glyphicon:hover {
   color: #428bca;
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
   background-color: salmon;
+}
+
+.calcBtn {
+  background-color: teal;
+  padding: 5px;
+  margin: 10px;
 }
 
 /* Attribute selector
